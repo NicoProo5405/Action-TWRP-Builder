@@ -4,25 +4,25 @@ on:
   workflow_dispatch:
     inputs:
       MANIFEST_URL:
-        description: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git'
+        description: ''
         required: true
-        default: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp'
+        default: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git'
       MANIFEST_BRANCH:
         description: 'twrp-12.1'
         required: true
         default: 'twrp-12.1'
       DEVICE_TREE_URL:
-        description: 'https://github.com/NicoProo5405/android_device_samsung_b4q'
+        description: ''
         required: true
-        default: 'https://github.com/TeamWin/android_device_asus_I003D'
+        default: 'https://github.com/NicoProo5405/android_device_samsung_b4q'
       DEVICE_TREE_BRANCH:
         description: 'android-12.1'
         required: true
         default: 'android-12.1'
       DEVICE_PATH:
-        description: 'device/samsung/b4q'
+        description: ''
         required: true
-        default: 'device/asus/I003D'
+        default: 'device/samsung/b4q'
       COMMON_TREE_URL:
         description: ''
         required: false
@@ -34,9 +34,9 @@ on:
         required: true
         default: 'I003D'
       MAKEFILE_NAME:
-        description: 'twrp_b4q'
+        description: ''
         required: true
-        default: 'twrp_I003D'
+        default: 'twrp_b4q'
       BUILD_TARGET:
         description: 'recovery'
         required: true
