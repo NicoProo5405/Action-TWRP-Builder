@@ -18,7 +18,7 @@ on:
       DEVICE_TREE_BRANCH:
         description: 'android-12.1'
         required: true
-        default: 'android-12.1'
+        default: 'android-12'
       DEVICE_PATH:
         description: ''
         required: true
@@ -32,7 +32,7 @@ on:
       DEVICE_NAME:
         description: 'b4q'
         required: true
-        default: 'I003D'
+        default: 'b4q'
       MAKEFILE_NAME:
         description: ''
         required: true
