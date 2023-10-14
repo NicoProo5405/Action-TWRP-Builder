@@ -8,9 +8,9 @@ on:
         required: true
         default: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git'
       MANIFEST_BRANCH:
-        description: 'twrp-12.1'
+        description: 'twrp-12'
         required: true
-        default: 'twrp-12.1'
+        default: 'twrp-12'
       DEVICE_TREE_URL:
         description: ''
         required: true
